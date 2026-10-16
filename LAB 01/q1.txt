@@ -1,0 +1,17 @@
+Begin
+Variables a, b, c
+Input a, b, c
+	If a > b then
+		If a > c then
+			Output a
+		Else
+			Output c
+		Endif
+	Else
+		If b > c then
+			Output b
+		Else
+			Output c
+		Endif
+	Endif
+End

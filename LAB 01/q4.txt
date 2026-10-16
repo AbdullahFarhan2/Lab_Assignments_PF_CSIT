@@ -1,0 +1,13 @@
+Variable num, fact, i
+
+Output "Enter a number to calculate factorial"
+fact = 1
+
+Input num
+
+For i = 1 to num
+    fact = fact * i
+Endfor
+
+Output "Factorial of inputted number is: ", fact
+End

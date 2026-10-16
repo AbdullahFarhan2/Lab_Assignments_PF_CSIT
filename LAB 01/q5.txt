@@ -1,0 +1,13 @@
+Begin
+    Variables height, width, required_board
+
+    Output "Enter the height for bookcase in inches"
+    Input height
+
+    Output "Enter the width for bookcase in inches"
+    Input width
+
+    required_board = (2 * height + 5 * width) / 12
+
+    Output "Required board in feet is: ", required_board
+End

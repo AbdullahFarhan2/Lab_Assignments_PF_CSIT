@@ -1,0 +1,46 @@
+Begin
+	Variable subj1, subj2, subj3, subj4, subj5, total, avg, failed_course, passed_course
+
+	Output "Enter marks for 5 Subjects"
+	Input subj1, subj2, subj3, subj4, subj5
+
+	total = subj1 + subj2 + subj3 + subj4 + subj5
+	avg = total / 5
+
+	failed_course = 0
+	passed_course = 0
+
+	if subj1 > 40 then
+		passed_course = passed_course + 1
+	else
+		failed_course = failed_course + 1
+	endif
+
+	if subj2 > 40 then
+		passed_course = passed_course + 1
+	else
+		failed_course = failed_course + 1
+	endif
+
+	if subj3 > 40 then
+		passed_course = passed_course + 1
+	else
+		failed_course = failed_course + 1
+	endif
+
+	if subj4 > 40 then
+		passed_course = passed_course + 1
+	else
+		failed_course = failed_course + 1
+	endif
+
+	if subj5 > 40 then
+		passed_course = passed_course + 1
+	else
+		failed_course = failed_course + 1
+	endif
+
+	Output "Average score is: ", avg
+	Output "failed courses are: ", failed_course
+	Output "passed courses are: ", passed_course
+End
